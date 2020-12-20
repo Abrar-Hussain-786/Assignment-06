@@ -1,0 +1,275 @@
+body {
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    width: 100%;
+}
+.background {
+    background-color: black;
+    width: 100%;
+}
+
+
+.header {
+    padding-top: 1.5em;
+    padding-left: 1em;
+    color: rgba(255,255,255,.75);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.logo {
+    margin: 0px 16px;
+}
+.navbar {
+    padding-left: 50px;  
+}
+.navbar ul li{
+    display: inline;
+    padding-right: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgba(255,255,255,.75);;
+}
+li ul{
+    display: none;
+    border-radius: 5px;
+}
+li:hover ul{
+    display: block;
+    position: absolute;
+    margin-left: 675px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-top: -4px;
+    
+    
+}
+li ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px 10px 30px;
+    line-height: 2em;
+    font-weight: 400;
+}
+li ul a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(202, 176, 176);
+    border-radius: 5px;
+}
+#language ul{
+    margin-left: 770px;
+}
+.sec1 {
+    margin-top: 70px;
+    color: white;
+    padding: 50px 0px 25px 60px;
+}
+.sec1 h3 {
+    font-weight: 400;
+}
+.sec1 a {
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+.sec1 a:hover {
+    border: none;
+}
+section.product {
+    background-image: url(../images/texture.png) ;
+    background-color:#303030;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 40px 0px;
+}
+.product h1 {
+    font-weight: 400;
+}
+.sec2 a {
+    background-color: #3371e3;
+    border-radius: 6px ;
+    padding: 6px 20px;
+    color: white;
+    text-decoration: none;
+}
+.sec2 a:hover {
+    color: rgb(8, 56, 56);
+}
+.sec3 {
+    padding: 60px 30px 60px 60px
+}
+.content p:first-child {
+    line-height: 1.3em;
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+}
+.flower {
+    margin-top: 2.50em;
+}
+.sec4 {
+    padding: 0px 0px 40px 60px;
+}
+.scale {
+    margin-top: 1em;
+    font-weight: 400;
+}
+.sec5 {
+    padding: 50px 0px 50px 60px;
+}
+.grow {
+    font-weight: 400;
+    margin-top: 1em;
+}
+.sec6 {
+    padding: 50px 0px 50px 60px;
+    margin-bottom: 2em;
+}
+.sec6-6 {
+    margin-top: 1.3em;
+    margin-left: 1.5em;
+}
+.suite {
+    font-weight: 400;
+}
+.sec7 {
+    background-image: url(../images/kub_video_banner_homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 2.4em 0em 6em 0em;
+}
+.sec7 h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+#Button1 {
+    background-color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    margin:10px 0px 20px 0px;
+    
+}
+#Button1 a{
+    text-decoration: none;
+}
+.seminar .sec7-a{
+    color: white;
+    text-decoration: none;
+    background-color: #303030;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+}
+.seminar .sec7-b{
+    color: white;
+    text-decoration: none;
+    background-color: #303030;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+}
+.wheel{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.wheel+h4{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.sec8{
+    background-color: #f7f7f7;
+}
+.description1-2{
+    padding: 0px 40px 20px 60px;
+}
+.description1-2 h4{
+    font-weight: 400;
+}
+.description2-2{
+    padding: 0px 50px 20px 50px;
+}
+.description2-2 h4{
+    font-weight: 400;
+}
+.description1-3{
+    padding: 0px 40px 20px 75px;
+}
+.description1-3 h4{
+    font-weight: 400;
+}
+.para{
+    text-align: justify;
+}
+.sec9{
+    text-align: center;
+    padding: 30px 100px 60px 100px
+    
+}
+.sec9 h3{
+    font-weight: 400;
+}
+.descp{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.sec10 {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 90px 0px 150px 0px;
+}
+.input{
+    width: 22em;
+    height: 2.1em;
+    border: 1px solid rgb(139, 135, 135);
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+.button2{
+    color: white;
+    border: none;
+    background-color: #aaa;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+}
+.footer{
+    background-color: #303030;
+    background-image: url(../images/texture.png);
+    padding: 16px;
+    color: white;
+}
+.navbar2{
+    padding: 0px 0px 20px 80px;
+
+}
+.navbar2 a{
+    color: white;
+    text-decoration: none;
+}
+a.fa {
+    color: white;
+    width: 30px;
+    font-size: 25px;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+}
+.copyright{
+    font-size: 14px;
+    text-align: center;
+    line-height: 2em;
+}
